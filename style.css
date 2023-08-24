@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    
+}
+body{
+    height: 100vh;
+    background-image: url(https://www.rgj.com/gcdn/presto/2020/10/04/PREN/10f9f0f1-bd7d-4ae5-815b-b1a94de07135-Fatalis_Multiplayer_02.jpg);
+    background-size: 100% 100%;
+    background-repeat: repeat;
+
+}
+
+section{
+    height: 115vh;
+}
+
+.section-greatsword{
+    background-image: url(./assets/greatsword.png);
+
+}
+
+
+
+.section-longsword{
+    background-image: url(./assets/longsword.png);
+}
+
+.section-sns{
+    background-image: url(./assets/sns.png);
+}
+.section-dual{
+    background-image: url(./assets/dual.png);
+}
+.section-hammer{
+    background-image: url(./assets/hammer.png);
+}
+.section-hh{
+    background-image: url(./assets/hh.png);
+}
+.section-lance{
+    background-image: url(./assets/lance.png);
+}
+.section-gunlance{
+    background-image: url(./assets/gunlance.png);
+}
+.section-sa{
+    background-image: url(./assets/switch\ axe.png);
+}
+.section-cb{
+    background-image: url(./assets/charge\ blade.png);
+}
+.section-glaive{
+    background-image: url(./assets/insect\ glaive.png);
+}
+.section-lbg{
+    background-image: url(./assets/lbg.png);
+}
+.section-hbg{
+    background-image: url(./assets/hbg.png);
+}
+.section-bow{
+    background-image: url(./assets/bow.png);
+}
+
+.container{
+    
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin: 10px auto;
+    
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    padding-bottom: 20px;
+    display: inline-block;
+    margin:10px;
+    transition: .5s;
+}
+
+.description{
+    text-align: justify;
+    padding: 0 20px;
+}
+.title{
+    position: relative;
+    top: -50px;
+    text-align: left;
+    padding-left: 20px;
+    background-color: rgba(0, 0, 0, 0.438);
+    color: white;
+}
+
+.title:hover{
+    background-color: rgba(216, 60, 60, 0.616);
+    transition: .5s;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.gif, .sns, .dual{
+    width: 400px;
+    height: 400px;
+}
+
+.return{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(160, 211, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;   
+}
+
+@media(max-width:1399px){
+    .container{
+        width: 100%;
+    }
+}
+
+
